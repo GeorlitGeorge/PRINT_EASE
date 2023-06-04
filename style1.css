@@ -4,19 +4,22 @@
     flex-wrap: wrap;
     justify-content: center;
 }
- /* Add a black background color to the top navigation */
- .topnav {
-  background-color: #f8f5f5;
-  overflow: hidden;
-}
-
+ 
+  .topnav {
+    width: auto;
+    background-color: #f8f5f5;
+    overflow: hidden;
+    font-size: 23px;
+  }
+ 
+ 
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float:left;
   color: #1f1c1c;
   text-align: bottom;
-  padding: 8px 14px;
+  padding: 4px 14px;
   text-decoration:none;
   font-size: 23px;
   font-weight:bold;
@@ -26,26 +29,30 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   
-  background-color: #f9f5f5;
+    background-color: #f9f5f5;
     color: #230bacea;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  
+
+  /* Add a color to the active/current link */
+.topnav ul a.active {
+  float: left;
+  margin-right: auto;
   color: #230bacea
 }
-.navbar .logo img {
-  width:min-content;
-  height: 4px;
-  vertical-align:middle;
-}
-.topnav ul li.right {
+
+
+.topnav ul a.right{
   float: right;
 }
 .topnav ul a.right {
   float: right;
+  
 }
-.topnav ul li a.logout {
-  text-decoration: underline; /* Add this line to underline the "Logout" link */
-}
+
+
+
+
+
+
+
